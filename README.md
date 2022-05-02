@@ -1,12 +1,12 @@
 # Formulario-entropia
 
-## Aplicación Web para formulario de inscripción a un seminario preuniversitario y desarrollada para aprovechar la capa gratuita de GCP mensual 
+## Aplicación Web para formulario de inscripción a un seminario preuniversitario, desarrollada buscando aprovechar la capa gratuita de [GCP](cloud.google.com/) 
 
-Desarrollado durante mediados de febrero.
+Realizada durante mediados de febrero.
 Estando activo durante el periodo marzo y abril 2022 en firebase y permitiendo el ingreso de más 500 estudiantes a un curso preuniversitario sin generar costes ( de hosting, base de datos, o mailing.).
 
 Resumen de soluciones de bajo costo:
-- Aplicación web en forma de formulario 
+- Aplicación web en forma de formulario asociada a firebase con base de datos
 - Api para comprobación de duplicados 
 - Firebase functions para envio automatico de mails
 - lista de espera en caso de sobrepasar umbrales gratuitos de sendgrid.
@@ -17,7 +17,7 @@ Resumen de soluciones de bajo costo:
 
 Uso de [GCP](cloud.google.com/) y [Firebase](https://firebase.google.com/)
 
-### Cloud run para una api de comprobación de cargas duplicadas evitando 
+### Cloud run para una api de comprobación de cargas duplicadas 
 
 ### Firebase Hosting para alojar el sitio web
 
