@@ -1,12 +1,8 @@
-node_modules/
-.firebaserc
+
 .DS_Store
-node_modules
-/dist
+
 public/
-.firebase
-
-
+dist/
 # dotenv environment variables file
 .env
 .env.local
@@ -39,6 +35,7 @@ firebase-debug.*.log*
 # Firebase cache
 .firebase/
 
+.firebaserc
 firebase.json
 
 # Runtime data
