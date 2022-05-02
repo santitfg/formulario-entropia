@@ -1,4 +1,4 @@
-# formulario-entropia
+# Formulario-entropia
 
 ## Aplicación Web para formulario de inscripción a un seminario preuniversitario y desarrollada para aprovechar la capa gratuita de GCP mensual 
 
