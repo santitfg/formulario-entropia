@@ -1,6 +1,6 @@
 # Formulario-entropia
 
-## Aplicación Web para formulario de inscripción a un seminario preuniversitario, desarrollada buscando aprovechar el nivel gratuito (free tier) de [GCP](cloud.google.com/) y de [Firebase](https://firebase.google.com/) 
+## Aplicación Web para formulario de inscripción a un seminario preuniversitario, desarrollada buscando aprovechar el nivel gratuito [(free tier)](https://cloud.google.com/free) de [GCP](cloud.google.com/) y de [Firebase](https://firebase.google.com/) 
 
 Realizada durante mediados de febrero.
 Estando activo durante el periodo marzo y abril 2022 en firebase y permitiendo el ingreso de más 500 estudiantes a un curso preuniversitario sin generar costes ( de hosting, base de datos, o mailing.).
