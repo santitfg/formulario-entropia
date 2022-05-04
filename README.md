@@ -39,11 +39,14 @@ y un conteo de mails por dia para no superar el límite de gratuito de SendGrid,
 
 ### Data Wrangling
 
-Uso de Python y Google Colab para el manejo de la información de las escuelas hice un análisis detallado de índices e información a conservar , simplificando de 41 columnas a 15 con información indispensable, y de 62000 filas a 20000 buscadas. a su vez que busque identificar posibles incongruencias entre el [padron de escuelas argentinas](https://datos.gob.ar/ar/dataset/educacion-padron-oficial-establecimientos-educativos) y la [API del Servicio de Normalización de Datos Geográficos de Argentina](https://datosgobar.github.io/georef-ar-api/) para asi subsanarlas en las consultas.
+Uso de Python y Google Colab para el manejo de la información de las escuelas hice un análisis detallado de índices e información a conservar, simplificando de 41 columnas a 15 con información indispensable, y de 62000 filas a 20000 buscadas. a su vez que busque identificar posibles incongruencias entre el [padron de escuelas argentinas](https://datos.gob.ar/ar/dataset/educacion-padron-oficial-establecimientos-educativos) y la [API del Servicio de Normalización de Datos Geográficos de Argentina](https://datosgobar.github.io/georef-ar-api/) para asi subsanarlas en las consultas.
 Y finalmente seleccione la base en pequeñas colecciones e importe directamente a Firebase 
 
-#### PD: originamente el proyecto contaba con un manejo de [Leaflet](https://leafletjs.com) para facilitar el ingreso de la informacion geografica que fue dejando de lado para simplificar el camino de usuario  
+##### PD: Originamente el proyecto contaba con un manejo de [Leaflet](https://leafletjs.com) para facilitar el ingreso de la informacion geografica que fue dejando de lado para simplificar el camino de usuario
 
+---
+#### [Un cambio futuro](https://github.com/santitfg/vue-form-factory) sera limpiar y volver modular el codigo con un formulario generado a partir de un patron factory.
+#### O directamente migrar a react reutilizando [un proyecto](https://github.com/santitfg/proyecto-gajo) similar, con un codigo modular, pulcro y que siguigue patrones de diseño
 
 ----
 
