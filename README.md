@@ -1,15 +1,16 @@
 # Formulario-entropia
 
-## Aplicación Web para formulario de inscripción a un seminario preuniversitario, desarrollada buscando aprovechar el nivel gratuito [(free tier)](https://cloud.google.com/free) de [GCP](cloud.google.com/) y de [Firebase](https://firebase.google.com/) 
+## Aplicación Web para formulario de inscripción a un seminario preuniversitario, desarrollada buscando aprovechar [el nivel gratuito](https://cloud.google.com/free) de [GCP](cloud.google.com/) y de [Firebase](https://firebase.google.com/) 
 
 Realizada durante mediados de febrero.
-Estando activo durante el periodo marzo y abril 2022 en firebase y permitiendo el ingreso de más 500 estudiantes a un curso preuniversitario sin generar costes ( de hosting, base de datos, o mailing.).
+Estando activo durante el periodo marzo - abril 2022 en firebase y permitiendo el ingreso de más 500 estudiantes a un curso preuniversitario sin generar costes ( de hosting, base de datos, o mailing.).
 
 Resumen de soluciones de bajo costo:
 - Aplicación web en forma de formulario asociada a firebase con base de datos
 - Api para comprobación de duplicados 
 - Firebase functions para envio automatico de mails
 - lista de espera en caso de sobrepasar umbrales gratuitos de sendgrid.
+- un script en Google Colab como interfaz para la descarga y consulta de la base de datos 
  ---
 ##### #Google Cloud Platform #Firebase #Vue.js #JavaScript #sendGrid #Pyhton
 
@@ -46,7 +47,7 @@ Y finalmente seleccione la base en pequeñas colecciones e importe directamente 
 
 ---
 #### [Un cambio futuro](https://github.com/santitfg/vue-form-factory) sera limpiar y volver modular el codigo con un formulario generado a partir de un patron factory.
-#### O directamente migrar a react reutilizando [un proyecto](https://github.com/santitfg/proyecto-gajo) similar, con un codigo modular, pulcro y que siguigue patrones de diseño
+#### O directamente migrar a react reutilizando [un proyecto](https://github.com/santitfg/proyecto-gajo) similar, con un codigo modular, pulcro y que sigue patrones de diseño
 
 ----
 
